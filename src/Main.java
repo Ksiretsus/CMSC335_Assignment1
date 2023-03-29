@@ -1,12 +1,9 @@
-//import java.util.Scanner;
 
 public class Main{
 
-    //static Scanner scanner;
 
     public static void main(String[] args){
 
-	//scanner = new Scanner(System.in);
 	Cli userItf = new Cli();
 
 	userItf.welcomeMessage();
@@ -78,13 +75,13 @@ public class Main{
 				        userItf.getDim2());
 		userItf.displayArea(torus.getVolume());
 		break;
-	    }
+	    }//end switch
     
 
     
-	}
+	}//end while
 	userItf.exitMessage();
 
     }
 
-}
+}//end Main
