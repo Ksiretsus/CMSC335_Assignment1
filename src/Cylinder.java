@@ -1,3 +1,8 @@
+/*Program author: Ryan Miskovic
+ * Date 3/24/23
+ * Purpose: Class for creating Cylinder object
+ */
+
 public class Cylinder extends ThreeDimensionalShape {
 
     private final double PI = 3.14;
@@ -5,15 +10,16 @@ public class Cylinder extends ThreeDimensionalShape {
     private double height;
 
     public Cylinder(double inRadius, double inHeight){
-	radius = inRadius;
-	height = inHeight;
-	setVolume();
+        dimensions = new NumberOfDimensions(3);
+	    radius = inRadius;
+	    height = inHeight;
+	    setVolume();
     }
 
     @Override
     double calculateVolume(){
-	//Cylinder formula: (Pi * radius^2 * height)
-	return (PI * radius * radius * height);
+	    //Cylinder formula: (Pi * radius^2 * height)
+	    return (PI * radius * radius * height);
     }
     
 }
