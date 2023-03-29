@@ -1,0 +1,2 @@
+-d out/tests
+-cp .:src/:junit-4.13.2.jar

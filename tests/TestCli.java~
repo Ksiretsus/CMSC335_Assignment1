@@ -1,0 +1,12 @@
+import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
+
+public class TestCli{
+
+    public void testCliStart(){
+
+	assertNotNull("Should not be null", new Cli());
+
+    }
+
+}

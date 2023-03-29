@@ -1,0 +1,1 @@
+-cp out/tests/:tests/hamcrest-core-1.3.jar:tests/junit-4.13.2.jar:tests/system-rules-1.19.0.jar org.junit.runner.JUnitCore
